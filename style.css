@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  background: #F9F4FB;
+}
+
+header {
+  padding-bottom: 32px;
+}
+
+.tela1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textos h1 {
+  color: #B52184;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.textos p {
+  color: #312D64;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.textos img {
+  width: 30%;
+  height: 30%;
+  padding-top: 120px;
+}
+
+.astronauta {
+  display: flex;
+}
+
+.cards {
+  background-color: #312D64;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 64px 111px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #F9F4FB;
+  border-radius: 30px;
+  min-height: 400px;
+  margin: 16px;
+}
+
+.card img {
+  max-width: 180px;
+  max-height: 210px;
+  padding: 32px 32px 4px 32px;
+}
+
+.card h1 {
+  color: #B52184;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding: 32px 32px 8px 32px;
+}
+
+.card p {
+  color: #312D64;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 8px 32px 32px 32px;
+}
+
+.div-form {
+  display: flex;
+  justify-content: space-between;
+  background: #F9F4FB;
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  padding-top: 128px;
+  padding-left: 128px;
+}
+
+.div-form h1 {
+  color: #B52184;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 900;
+  line-height: normal;
+  padding-bottom: 32px;
+}
+
+.formulario .card-input {
+  padding-bottom: 16px;
+}
+
+.formulario input {
+  width: 592px;
+  padding: 12px 16px 12px 48px;
+  gap: 12px;
+  border-radius: 16px;
+  border: 1.5px solid #312D64;
+}
+
+.formulario i {
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 12px;
+}
+
+.formulario textarea {
+  width: 592px;
+  height: 150px;
+  padding: 12px 16px 12px 16px;
+  gap: 12px;
+  border-radius: 16px;
+  border: 1.5px solid #312D64;
+}
+
+form button {
+  display: inline-flex;
+  height: 45px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+  color: white;
+}
+
+.bg {
+  height: 611px;
+}
+
+footer {
+  display: flex;
+  height: 78px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+  color: #F9F4FB;
+}
